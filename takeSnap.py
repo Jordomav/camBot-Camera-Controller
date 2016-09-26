@@ -4,7 +4,7 @@ from random import randint
 
 camera = PiCamera()
 
-randomNumber = randint(0,999)
+randomNumber = randint(0, 999)
 
 camera.start_preview()
 sleep(5)
